@@ -12,5 +12,6 @@ void main()
 	printf("The natural numbers are ");
 	for(i=1;i<=n;i++)
 		printf("%d\t",i);
+		return ;
 	//Fill the missing code here
  }
