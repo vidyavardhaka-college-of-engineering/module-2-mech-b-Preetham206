@@ -19,7 +19,7 @@ int main()
       scanf("%d", &a[i]);
       sum=sum+a[i];
    }
-   printf("Sum of elements=%d",sum);
+ printf("Sum of elements=%d", sum);
    
- return 0;
+  return 0;
 }
