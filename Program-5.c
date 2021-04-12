@@ -12,10 +12,9 @@ int main()
    printf("Enter number of elements in array and the array elements");
    scanf("%d", &n);
    printf("enter the elements of the array");
-   for (i = 0; i < n; i++)
+   for (i=0;i<n;i++)
    {
-      scanf("%d", &a[i]);
-      sum=sum+a[i];
+      scanf("%d",&a[i]);
    }
   // printf("Enter %d elements\n", n);
    for (i = 0; i < n; i++)
